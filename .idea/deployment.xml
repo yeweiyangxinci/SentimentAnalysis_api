@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Copy of project-level server 'TiTan XP'">
+    <serverData>
+      <paths name="Copy of project-level server 'TiTan XP'">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yeweiyang/tmp/sentiment_api" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="osayes@47.93.252.109:16606">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
