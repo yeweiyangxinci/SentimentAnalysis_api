@@ -1,0 +1,2 @@
+# SentimentAnalysis_api
+使用django对情感分析功能进行封装，里面包含使用情感词典和Bert模型进行情感分类，最后可以使用tensorFlow serving将模型部署在docker中运行。
