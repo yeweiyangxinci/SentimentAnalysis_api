@@ -22,6 +22,7 @@ serving部署在docker中直接启动。原先的训练代码放在目录文件�
         models.config 为tensorflow serving配置好多模型启动文件
       views.py 我们所用到的逻辑处理文件
       classifiers.py 我们所用到的情感词典类
+      sa_predict_saved_model.py 用来生成可以应用于serving模型格式的文件
     sentiment_dic 这个目录下存放的情感词典方法，在sentiment_bert已经有备份
   ```
   
@@ -37,4 +38,5 @@ serving部署在docker中直接启动。原先的训练代码放在目录文件�
  -t tensorflow/serving --model_config_file=/models/multiModel/models.config<br/>
   实现多模型部署，访问api是http://XXXX.XXXX.XX/v1/models/triple_model:predict，具体参考models.config。<br/>
   在这里我训练了两个模型triple_model和polarity_model<br/>
+  注意：直接从bert中训练的模型需要经过修改才能适应serving，修改文件定义在sa_predict_saved_model.py文件中
   
