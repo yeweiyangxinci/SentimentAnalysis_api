@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea214c97-4586-4b49-85eb-47a7f6811dfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentiment_bert/Bert/serving_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment_bert/Bert/serving_predict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sentiment_bert/Bert/serving_predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="845" column="26" selection-start-line="845" selection-start-column="26" selection-end-line="845" selection-end-column="26" />
+            <state relative-caret-position="403">
+              <caret line="843" column="75" selection-start-line="843" selection-start-column="19" selection-end-line="843" selection-end-column="75" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
@@ -181,10 +179,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="40" />
-    <option name="width" value="2800" />
-    <option name="height" value="1920" />
+    <option name="x" value="-10" />
+    <option name="y" value="64" />
+    <option name="width" value="1920" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,7 +224,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sentiment_bert/Bert" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SentimentAnalysis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -359,12 +357,12 @@
       <workItem from="1568723436305" duration="811000" />
       <workItem from="1568882988550" duration="3122000" />
       <workItem from="1568964930245" duration="1809000" />
-      <workItem from="1569209835635" duration="3410000" />
+      <workItem from="1569209835635" duration="4565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100236000" />
+    <option name="totallyTimeSpent" value="101391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1513" height="1013" extended-state="6" />
@@ -625,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment_bert/Bert/serving_predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="845" column="26" selection-start-line="845" selection-start-column="26" selection-end-line="845" selection-end-column="26" />
+        <state relative-caret-position="403">
+          <caret line="843" column="75" selection-start-line="843" selection-start-column="19" selection-end-line="843" selection-end-column="75" />
           <folding>
             <element signature="e#15#53#0" expanded="true" />
           </folding>

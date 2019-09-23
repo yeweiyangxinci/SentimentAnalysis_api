@@ -841,9 +841,9 @@ class BertClassifier:
                      "label_ids": label_ids}
         dict_data = {"inputs": dict_curl, "signature_name": "vectorize_service"}
         if task_name == 'triple':
-            url = '#######'
+            url = 'http://124.16.138.75:8501/v1/models/triple_model:predict'
         else:
-            url = '#######'
+            url = 'http://124.16.138.75:8501/v1/models/polarity_model:predict'
         requests.adapters.DEFAULT_RETRIES = 5
         s = requests.session()
         s.keep_alive = False
