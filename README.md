@@ -35,5 +35,6 @@ serving部署在docker中直接启动。原先的训练代码放在目录文件�
   运行
   docker run -p 8501:8501 --mount type=bind,source=/home/yeweiyang/tmp/sentiment_api/sentiment_bert/multiModel/,target=/models/multiModel \
  -t tensorflow/serving --model_config_file=/models/multiModel/models.config
-  实现多模型部署
+  实现多模型部署，访问api是http://XXXX.XXXX.XX/v1/models/triple_model:predict，具体参考models.config。
+  在这里我训练了两个模型triple_model和polarity_model
   
