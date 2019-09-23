@@ -26,15 +26,15 @@ serving部署在docker中直接启动。原先的训练代码放在目录文件�
   ```
   
 ### 部署方法
-  代码git下来安装好所有依赖包后
-  python manage.py runserver 0.0.0.0:$ports 这里的0.0.0.0指的是任意都可访问，大家可自行定义使用
-  如果只是学习调用，可以直接加上nohup放在后台运行，如果是部署生产，建议打包成docker镜像
-  训练好的模型取出后，我们可以在docker中安装tensorflow serving部署启动。
-  参考博客https://www.jianshu.com/p/d673c9507988
-  环境配置好了以后
-  运行
+  代码git下来安装好所有依赖包后<br/>
+  python manage.py runserver 0.0.0.0:$ports 这里的0.0.0.0指的是任意都可访问，大家可自行定义使用<br/>
+  如果只是学习调用，可以直接加上nohup放在后台运行，如果是部署生产，建议打包成docker镜像<br/>
+  训练好的模型取出后，我们可以在docker中安装tensorflow serving部署启动。<br/>
+  参考博客https://www.jianshu.com/p/d673c9507988<br/>
+  环境配置好了以后<br/>
+  运行<br/>
   docker run -p 8501:8501 --mount type=bind,source=/home/yeweiyang/tmp/sentiment_api/sentiment_bert/multiModel/,target=/models/multiModel \
- -t tensorflow/serving --model_config_file=/models/multiModel/models.config
-  实现多模型部署，访问api是http://XXXX.XXXX.XX/v1/models/triple_model:predict，具体参考models.config。
-  在这里我训练了两个模型triple_model和polarity_model
+ -t tensorflow/serving --model_config_file=/models/multiModel/models.config<br/>
+  实现多模型部署，访问api是http://XXXX.XXXX.XX/v1/models/triple_model:predict，具体参考models.config。<br/>
+  在这里我训练了两个模型triple_model和polarity_model<br/>
   
